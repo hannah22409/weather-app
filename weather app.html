@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WireframeHTML-CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cd3b10b395.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="row">
+          <div class="col-4">
+            <div class="search-button">
+              <input type="submit" value="Search🔍" />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="city-search">
+              <input type="text" placeholder="Enter name of City" />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="current-location">
+              <input type="submit" value="Current Location" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="main" justify-content-center>
+        <div class="row">
+          <div class="col-6">
+            <h1 class="city-name">Cleveland</h1>
+            <div class="date-time">Aug 24 Tuesday, 1:00</div>
+            <br />
+            <div class="picture">
+              <img src="images/dragon-sun.png" alt="dragon-sun" width="150" />
+            </div>
+            <div class="temperature">
+              87°<span class="degrees"><strong>F</strong></span
+              >/C
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="chances">
+              <br />
+              <br />
+              <i class="fas fa-umbrella"></i> chance of rain: 23%
+              <br />
+              <i class="fas fa-tint"></i> humidity: 60%
+              <br />
+              <i class="fas fa-wind"></i> wind: 10mph
+              <br />
+              <p class="sunnyskies">
+                <strong>Sunny skies</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="third">
+          <div class="row">
+            <div class="col-2">
+              02:00
+              <div>
+                <img src="images/dragon-sun.png" alt="dragon-sun" width="70" />
+              </div>
+              <strong>37°</strong>34°
+            </div>
+            <div class="col-2">
+              03:00
+              <div>
+                <img src="images/dragon-sun.png" alt="dragon-sun" width="70" />
+              </div>
+              <strong>37°</strong>34°
+            </div>
+            <div class="col-2">
+              04:00
+              <div>
+                <img
+                  src="images/dragon-cloud.png"
+                  alt="dragon-cloud"
+                  width="50"
+                />
+              </div>
+              <strong>37°</strong>34°
+            </div>
+            <div class="col-2">
+              05:00
+              <div>
+                <img src="images/dragon-sun.png" alt="dragon-sun" width="70" />
+              </div>
+              <strong>37°</strong>34°
+            </div>
+            <div class="col-2">
+              06:00
+              <div>
+                <img
+                  src="images/dragon-cloud.png"
+                  alt="dragon-cloud"
+                  width="50"
+                />
+              </div>
+              <strong>37°</strong>34°
+            </div>
+            <div class="col-2">
+              07:00
+              <div>
+                <img src="images/dragon-sun.png" alt="dragon-sun" width="70" />
+              </div>
+              <strong>37°</strong>34°
+            </div>
+          </div>
+        </div>
+        <br />
+        <figure>
+          <figcaption>
+            <i class="fas fa-music"></i> brighten up
+            <span class="your-day">your day <i class="fas fa-music"></i></span>
+          </figcaption>
+          <audio controls src="audio/adore-you.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </figure>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>

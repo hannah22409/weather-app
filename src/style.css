@@ -1,0 +1,90 @@
+body {
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 550px;
+}
+.container {
+  font-family: "Hi Melody", cursive;
+  background: #ffe4f3;
+  font-size: larger;
+  padding: 10px;
+  cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1019.cur), auto !important;
+  box-shadow: 6px 6px 6px #f866ad;
+}
+input {
+  box-shadow: 1px 2px 2px #f866ad;
+  background: #fff;
+  border: 2px white;
+}
+::placeholder {
+  color: #f866ad;
+}
+.current-location {
+  margin-left: 10px;
+}
+.date-time {
+  margin-left: 15px;
+}
+
+.chances {
+  padding: 10px;
+  font-size: 25px;
+}
+.sunnyskies {
+  color: white;
+  font-size: larger;
+  margin-left: 24px;
+  -webkit-text-stroke: 0.05px #f866ad;
+}
+.picture {
+  text-align: center;
+}
+.header {
+  padding-top: 10px;
+}
+
+.main {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.city-name {
+  margin-bottom: 0px;
+  font-size: 70px;
+  animation: type 3s steps(15);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid white;
+  width: 15ch;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 15ch;
+  }
+}
+
+.temperature {
+  text-align: center;
+  font-size: 40px;
+}
+.degrees {
+  color: #f866ad;
+}
+.C-F {
+  font-size: 10px;
+}
+.third {
+  margin: 15px, 0px;
+  margin-bottom: 5px;
+}
+figure {
+  text-align: center;
+  font-size: 28px;
+}
+.your-day {
+  color: #f866ad;
+}
